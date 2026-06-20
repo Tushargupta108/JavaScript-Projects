@@ -139,7 +139,7 @@ const vastuRecommendations = [
 
     const text = `Hi ${name} ${surname}, YOUR ZODIAC SIGN IS: ${zodiacSigns[month - 1]}. ${compliments[(day - 1) % compliments.length]}. ${victimCardCompliments[year % victimCardCompliments.length]}. ${vastuRecommendations[(day * month) % vastuRecommendations.length]}. ${astrologyPredictions[(name.length * surname.length) % astrologyPredictions.length]}.`;
 
-console.log(text);
+   //console.log(text);
     // month-1 bc 0 indexing
     document.getElementById('result').textContent = text;
     const result = document.getElementById('result');
@@ -147,3 +147,4 @@ console.log(text);
     result.style.display = 'block';
 
  })
+ 
