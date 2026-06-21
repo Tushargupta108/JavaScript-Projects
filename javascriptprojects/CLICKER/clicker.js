@@ -37,6 +37,8 @@ circlElement.style.backgroundColor=color[Math.floor(Math.random()*7)]
 circlElement.style.top=`${e.clientY}px`
 circlElement.style.left=`${e.clientX}px`
 
+// circlElement.style.left=`${e.clientX-25}px` if we do this then origin of bubbling start exactly from clicked place
+
 // these two line will tell server /body from to and left ki click top/left se kitna door hai
 
  body.append(circlElement);
